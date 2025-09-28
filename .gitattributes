@@ -1,0 +1,11 @@
+# Git LFS for large files
+*.pkl filter=lfs diff=lfs merge=lfs -text
+models/*.pkl filter=lfs diff=lfs merge=lfs -text
+# Standard Git attributes
+*.py text
+*.md text
+*.txt text
+*.toml text
+*.json text
+*.csv text
+*.gitignore text
