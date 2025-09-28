@@ -52,8 +52,7 @@ Thumbs.db
 !test-data/.gitkeep
 !results/.gitkeep
 
-# Models
-models/*.pkl
+# Models (allowing LFS tracked files)
 !models/.gitkeep
 
 # Logs
@@ -62,8 +61,8 @@ models/*.pkl
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Streamlit
-.streamlit/
+# Streamlit cache
+.streamlit/secrets.toml
 
 # Results
 results/*
